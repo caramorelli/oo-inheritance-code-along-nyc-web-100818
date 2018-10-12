@@ -6,7 +6,8 @@ class Vehicle
   @@all = []
   
   def initialize(wheel_size, wheel_number)
-    
+    @wheel_size = wheel_size
+    @wheel_number = wheel_number
     @@all << self
   end 
   
