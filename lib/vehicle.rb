@@ -7,7 +7,7 @@ class Vehicle
   
   def initialize(wheel_size, wheel_number)
     super
-  
+  @@all << self
   end 
   
   def self.all 
