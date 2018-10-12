@@ -11,6 +11,11 @@ class Vehicle
     @@all << self
   end 
   
+  def go 
+  end 
+  
+  def fill_up_tank
+  
   def self.all 
     @@all
   end 
