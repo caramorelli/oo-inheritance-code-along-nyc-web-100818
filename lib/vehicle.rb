@@ -12,9 +12,12 @@ class Vehicle
   end 
   
   def go 
+    vroom!!
   end 
   
   def fill_up_tank
+    'filling up tank!'
+  end 
   
   def self.all 
     @@all
