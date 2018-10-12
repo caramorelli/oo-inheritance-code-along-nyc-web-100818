@@ -6,8 +6,8 @@ class Car < Vehicle
   @@all = []
   
   def initialize(wheel_size, wheel_number)
-    super
-  @@all << self
+    
+    @@all << self
   end 
   
   def self.all 
